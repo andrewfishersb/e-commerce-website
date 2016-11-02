@@ -1,0 +1,26 @@
+{{#if showEdit}}
+  <h4>Edit Item</h4>
+  <form class="form-group">
+    <div class="form-group">
+      <label for="name">Item</label>
+      {{input class="form-control" value=name id="name"}}
+    </div>
+    <div class="form-group">
+      <label for="description">Description</label>
+      {{textarea class="form-control" value=description id="description"}}
+    </div>
+    <div class="form-group">
+      <label for="price">Price</label>
+      {{input type="number" class="form-control" value=price id="price"}}
+    </div>
+    <div class="form-group">
+      <label for="image">Image URL</label>
+      {{input class="form-control" value=image id="image"}}
+    </div>
+    <button class="btn btn-success" {{action 'editItem' product}}>Edit</button>
+
+  </form>
+{{else}}
+  <button class="btn btn-info" {{action 'showForm'}}>E</button>
+
+{{/if}}

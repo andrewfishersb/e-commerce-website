@@ -8,7 +8,8 @@ export default Ember.Service.extend({
     this.cost(this.get('items'));
   },
   remove(item){
-    this.get('items').removeObject(item);
+    var indexToRemove = this.get('items').indexOf(item);
+    this.get('items').removeAt(indexToRemove);
     this.cost(this.get('items'));
   },
   empty(){

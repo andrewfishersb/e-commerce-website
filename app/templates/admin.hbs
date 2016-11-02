@@ -9,6 +9,7 @@
           <th>Price</th>
           <th>Description</th>
           <th></th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
@@ -20,9 +21,13 @@
             <td>{{product.price}}</td>
             <td>{{product.description}}</td>
             <td>
+              {{edit-item product=product editItem='editItem'}}
+            </td>
+            <td>
               <button class="btn btn-danger" {{action 'delete' product}}>X</button>
             </td>
           </tr>
+
         {{/each}}
       </tbody>
     </table>

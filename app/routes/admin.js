@@ -16,6 +16,16 @@ export default Ember.Route.extend({
       this.get('shoppingCart').cost(this.get('shoppingCart.items'));
       item.destroyRecord();
       this.transitionTo('admin');
+    },
+    editItem(item, params){
+      console.log("got to this point")
+      Object.keys(params).forEach(function(key){
+        if(params[key]!==undefined){
+          item.set(key,params[key]);
+        }
+      });
+      item.save();
+      this.transitionTo('admin');
     }
   }
 });
