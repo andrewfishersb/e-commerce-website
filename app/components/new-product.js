@@ -15,8 +15,9 @@ export default Ember.Component.extend({
         this.set('price','');
         this.set('image','');
         this.sendAction("saveItem", params)
+      }else{
+        alert("Must Enter a product and price");
       }
-      alert("Must Enter a product and price");
     }
   }
 });

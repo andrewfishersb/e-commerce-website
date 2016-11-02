@@ -14,6 +14,14 @@ export default Ember.Service.extend({
   empty(){
     this.get('items').clear();
   },
+  removeAllOfOneType(item,items){
+    for(var i = 0; i <items.length; i++){
+    	if(items.includes(item)){
+      	var index = items.indexOf(item);
+        items.splice(index,1);
+      }
+    }
+  },
   //maybe a checker for if cart is empty
   cost(items){
     var tempTotal = 0;

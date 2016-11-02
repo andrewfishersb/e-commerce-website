@@ -20,7 +20,7 @@
             <td>{{product.price}}</td>
             <td>{{product.description}}</td>
             <td>
-              <button class="btn btn-danger">X</button>
+              <button class="btn btn-danger" {{action 'delete' product}}>X</button>
             </td>
           </tr>
         {{/each}}
