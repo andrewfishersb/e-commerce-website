@@ -1,0 +1,17 @@
+{ "products": [{
+    "name": "Basketball",
+    "description": "orange spalding basketball",
+    "image": "https://images.jet.com/md5/2bb04868323e4bd8fbe37ab1c45dd3b7.500",
+    "price": 20
+  }, {
+    "name": "Boots",
+    "description": "black",
+    "image": "https://macys-o.scene7.com/is/image/MCY/products/5/optimized/3919355_fpx.tif?op_sharpen=1&wid=400&hei=489&fit=fit,1&$filterlrg$",
+    "price": 200
+  }, {
+    "name": "Video game",
+    "description": "for cheap",
+    "image": "https://sports-images.vice.com/images/articles/meta/2014/11/06/untitled-article-1415231625.jpg?crop=0.7719298245614035xw:0.7743055555555556xh;0.1111111111111111xw,0xh&resize=900:*&output-quality=75",
+    "price": 20
+  }]
+}
