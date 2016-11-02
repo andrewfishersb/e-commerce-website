@@ -1,3 +1,33 @@
-{{#each model as |product|}}
-  {{product-tile product=product}}
-{{/each}}  
+<h2>Admin Dashboard</h2>
+<div class="row">
+  <div class="col-sm-9">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Description</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each model as |product|}}
+          <!-- {{admin-tile product=product}} -->
+          <tr>
+            <td><img class="admin-image" src={{product.image}} alt="Not available" /></td>
+            <td>{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.description}}</td>
+            <td>
+              <button class="btn btn-danger">X</button>
+            </td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+  <div class="col-sm-3">
+    {{new-product saveItem='saveItem'}}
+  </div>
+</div>

@@ -2,25 +2,26 @@ import Ember from 'ember';
 
 export default Ember.Service.extend({
   items: [],
+  total: 0,
   add(item){
-    console.log("item added "+item);
     this.get('items').pushObject(item);
+    this.cost(this.get('items'));
   },
   remove(item){
     this.get('items').removeObject(item);
+    this.cost(this.get('items'));
   },
   empty(){
     this.get('items').clear();
   },
   //maybe a checker for if cart is empty
-  // cost(){
-  //   var total =0;
-  //   var tempCart[]=this.get('cart');
-  //   if(tempCart.length>0 && tempCart[i].price){
-  //     for (var i = 0; i < tempCart.length; i++) {
-  //       total+=tempCart[i].price
-  //     }
-  //   }
-  //     return total;
-  //   }
+  cost(items){
+    var tempTotal = 0;
+    if(items.length>0){
+      for (var i = 0; i < items.length; i++) {
+      tempTotal+=items[i].data.price;
+      }
+    }
+    this.set("total",tempTotal);
+  }
 });
