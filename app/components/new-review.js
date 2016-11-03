@@ -8,16 +8,20 @@ export default Ember.Component.extend({
         var params = {
           author: this.get('author'),
           title: this.get('title'),
-          rating: parseInt(this.get('rating')),
+          rating: parseFloat(this.get('rating')),
           content: this.get('content'),
           product: this.get('product')
         }
-        this.set('author', '');
-        this.set('title', '');
-        this.set('rating', '');
-        this.set('content', '');
-        this.set('newReview', false);
-        this.sendAction('saveReview', params);
+        if(params.rating<0 || params.rating>5){
+          alert("Please rate between 1 and 5");
+        }else{
+          this.set('author', '');
+          this.set('title', '');
+          this.set('rating', '');
+          this.set('content', '');
+          this.set('newReview', false);
+          this.sendAction('saveReview', params);
+        }
       } else {
         alert("Please fill out all fields before submitting.");
       }
