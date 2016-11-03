@@ -1,4 +1,3 @@
-
 <div class="row">
   <div class="col-md-6">
     <img src={{product.image}}>
@@ -7,5 +6,9 @@
     <h1>{{product.name}}</h1>
     <p>{{product.description}}</p>
     <p><strong>${{product.price}}.00</strong></p>
+    {{new-review saveReview="saveReview" product=product}}
   </div>
 </div>
+{{#each sortedReviews as |review|}}
+  {{review-tile review=review}}
+{{/each}}
