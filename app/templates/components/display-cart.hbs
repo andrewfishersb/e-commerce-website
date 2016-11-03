@@ -3,7 +3,7 @@
     <h2 id="cart-title">Cart</h2>
     {{#each shoppingCart.items as |item|}}
       <div class="cart-container">
-        {{item.name}} -- ${{item.price}}
+        {{item.name}} -- ${{item.price}} -- {{cartQuantity}}
         <button class="btn btn-sm btn-danger pull-right" {{action 'removeFromCart' item}}>x</button>
       </div>
       <hr>
