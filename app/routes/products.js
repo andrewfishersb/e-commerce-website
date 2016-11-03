@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   model(params) {
     return this.store.findRecord('product', params.product_id);
   },
-  
+
   actions: {
     saveReview(params) {
       var newReview = this.store.createRecord('review', params);
@@ -14,6 +14,10 @@ export default Ember.Route.extend({
         return product.save();
       });
       this.transitionTo('products', product)
+    },
+    deleteReview(review){
+      review.destroyRecord();
+      this.transitionTo('products');
     }
   }
 });

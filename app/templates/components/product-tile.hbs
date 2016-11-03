@@ -1,4 +1,8 @@
-<h4>{{#link-to 'products' product.id}}{{product.name}} {{/link-to}} - ${{product.price}}.00</h4>
-{{#link-to 'products' product.id}}  <img src={{product.image}} alt="" /> {{/link-to}}
-<br><br>
-<button class="btn btn-primary" {{action 'addToCart' product}}>Add to Cart</button>
+<div class="col-md-6 outer-well">
+  <div class=" well product-tile">
+    <h4>{{#link-to 'products' product.id}}{{product.name}} {{/link-to}} - ${{product.price}}.00</h4>
+    {{#link-to 'products' product.id}}  <img src={{product.image}} alt="" /> {{/link-to}}
+    <br><br>
+    <button class="btn btn-success product-btn" {{action 'addToCart' product}}>Add to Cart</button>
+  </div>
+</div>

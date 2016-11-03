@@ -1,1 +1,8 @@
-{{product-details saveReview="saveReview" product=model}}
+<div class="row">
+  <div class="col-md-9">
+    {{product-details saveReview="saveReview" deleteReview="deleteReview"  product=model}}
+  </div>
+  <div class="col-md-3">
+    {{display-cart}}
+  </div>
+</div>

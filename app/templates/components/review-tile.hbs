@@ -2,4 +2,5 @@
   <h4>{{review.title}}</h4>
   <p>{{review.rating}} | {{review.author}}</p>
   <p>{{review.content}}</p>
+  <button class="btn btn-danger" {{action 'deleteReview' review}}>Delete Review</button>
 </div>
