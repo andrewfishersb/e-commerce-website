@@ -1,24 +1,28 @@
 {{#if newReview}}
-  <h3>Add a review</h3>
-  <form class="form-group">
-    <div class="form-group">
-      <label for="author">Enter your name:</label>
-      {{input class="form-control" value=author id="author"}}
-    </div>
-    <div class="form-group">
-      <label for="title">Enter a title for your review:</label>
-      {{input type="text" class="form-control" value=title id="title"}}
-    </div>
-    <div class="form-group">
-      <label for="rating">Enter a rating between 1 and 5:</label>
-      {{input class="form-control" value=rating id="rating" type="number" min="1" max="5"}}
-    </div>
-    <div class="form-group">
-      <label for="content">Add a description for your review:</label>
-      {{textarea type="text" class="form-control" value=content id="content"}}
-    </div>
-    <button class="btn btn-info" {{action 'saveReview' }}>Submit Review</button>
-  </form>
+  <div class="review-form">
+    <h3>Add a review</h3>
+    <form class="form-group">
+      <div class="form-group">
+        <label for="author">Enter your name:</label>
+        {{input class="form-control" value=author id="author"}}
+      </div>
+      <div class="form-group">
+        <label for="title">Enter a title for your review:</label>
+        {{input type="text" class="form-control" value=title id="title"}}
+      </div>
+      <div class="form-group">
+        <label for="rating">Enter a rating between 1 and 5:</label>
+        {{input class="form-control" value=rating id="rating" type="number" min="1" max="5"}}
+      </div>
+      <div class="form-group">
+        <label for="content">Add a description for your review:</label>
+        {{textarea type="text" class="form-control" value=content id="content"}}
+      </div>
+      <button class="btn btn-info" {{action 'saveReview' }}>Submit Review</button>
+    </form>
+  </div>
 {{else}}
-  <button class="btn btn-info" {{action 'addNewReview'}}>Add a new review</button>
+  <div class="new-review-btn">
+    <button class="btn btn-info" {{action 'addNewReview'}}>Add a new review</button>
+  </div>
 {{/if}}

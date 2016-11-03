@@ -1,14 +1,14 @@
 {{#if shoppingCart.items}}
-  <div class="well">
+  <div class="well cart">
     <h2 id="cart-title">Cart</h2>
     {{#each shoppingCart.items as |item|}}
       <div class="cart-container">
-        {{item.name}} -- ${{item.price}} -- {{cartQuantity}}
+        {{item.name}}  -  ${{item.price}}
         <button class="btn btn-sm btn-danger pull-right" {{action 'removeFromCart' item}}>x</button>
       </div>
       <hr>
     {{/each}}
     <h3>Total Cost</h3>
-    <h4>${{shoppingCart.total}}</h4>
+    <h4>${{shoppingCart.total}}.00</h4>
   </div>
 {{/if}}

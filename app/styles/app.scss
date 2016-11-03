@@ -30,11 +30,23 @@ img{
 
 .product-btn {
   position: absolute;
-  /*margin-right:500px;*/
   margin-bottom: 25px;
   margin-left: -60px;
   right: 50;
   bottom: 0;
+}
+
+.review-form {
+  display: block !important;
+}
+.product-btns {
+  div {
+    display: inline;
+    .form-group {
+      display: block;
+      margin-bottom: 15px;
+    }
+  }
 }
 
 hr {
@@ -42,6 +54,20 @@ hr {
   margin-bottom: 10px;
 }
 
+th, td {
+  max-width: 250px;
+}
+#product-edit {
+  min-width: 245px;
+}
+
 .cart-container {
   overflow: auto;
+}
+.cart{
+  overflow: auto;
+  height: 40vh;
+}
+.pad-info{
+  margin-bottom: 20px;
 }

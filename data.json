@@ -1,17 +1,113 @@
-{ "products": [{
-    "name": "Basketball",
-    "description": "orange spalding basketball",
-    "image": "https://images.jet.com/md5/2bb04868323e4bd8fbe37ab1c45dd3b7.500",
-    "price": 20
+{
+  "products" : [ {
+    "description" : "It's a basketball you should know what that is",
+    "image" : "https://images.jet.com/md5/2bb04868323e4bd8fbe37ab1c45dd3b7.500",
+    "name" : "Basketball",
+    "price" : 20,
+    "reviews" : {
+      "-KVgSLnRnpTRsl-Zowy8" : true,
+      "-KVgSSYI-er4Ylr7482R" : true
+    }
   }, {
-    "name": "Boots",
-    "description": "black",
-    "image": "https://macys-o.scene7.com/is/image/MCY/products/5/optimized/3919355_fpx.tif?op_sharpen=1&wid=400&hei=489&fit=fit,1&$filterlrg$",
-    "price": 200
+    "description" : "Manmade Imported Synthetic sole Shaft measures approximately 16.5 from arch Heel measures approximately 1 Boot  opening measures approximately 15.5 around Knee-length boot featuring double buckle at ankle and button strap at calf with full-length decorative zip Interior zip at ankle",
+    "image" : "https://macys-o.scene7.com/is/image/MCY/products/5/optimized/3919355_fpx.tif?op_sharpen=1&wid=400&hei=489&fit=fit,1&$filterlrg$",
+    "name" : "Boots",
+    "price" : 200,
+    "reviews" : {
+      "-KVgRsuC0iqxywQ4IEdf" : true,
+      "-KVgS1oBsqomxY-3SPix" : true,
+      "-KVgS8k3n-t9leUc7wWw" : true
+    }
   }, {
-    "name": "Video game",
-    "description": "for cheap",
-    "image": "https://sports-images.vice.com/images/articles/meta/2014/11/06/untitled-article-1415231625.jpg?crop=0.7719298245614035xw:0.7743055555555556xh;0.1111111111111111xw,0xh&resize=900:*&output-quality=75",
-    "price": 20
-  }]
+    "description" : "for cheap",
+    "image" : "https://sports-images.vice.com/images/articles/meta/2014/11/06/untitled-article-1415231625.jpg?crop=0.7719298245614035xw:0.7743055555555556xh;0.1111111111111111xw,0xh&resize=900:*&output-quality=75",
+    "name" : "Video game",
+    "price" : 20,
+    "reviews" : {
+      "-KVgSerY-N95giWDK9hS" : true,
+      "-KVgSsooJVAqJ95YVgQb" : true
+    }
+  }, {
+    "description" : "Lit RPG this is like the best book this year but not actually but actually so you should buy it. When he’s asked to team with axe bro Rock and ninja girl Jade, he will have to fight for his life and much more as the crew takes on some of the most brutal and fantastic monsters in the land of Warscapia—a videogame fantasy universe like none other.",
+    "image" : "https://images-na.ssl-images-amazon.com/images/I/515boKz5tPL.jpg",
+    "name" : "Warscapia by the Garrett Boggs",
+    "price" : 1,
+    "reviews" : {
+      "-KVgT59ZmFwIMzXBvHBv" : true,
+      "-KVgTF62OgB4FL_R4_hX" : true,
+      "-KVgTKH2Hi2w1WGqQs1u" : true
+    }
+  } ],
+  "reviews" : {
+    "-KVgRsuC0iqxywQ4IEdf" : {
+      "author" : "AWomanWhoLovesBoots",
+      "content" : "Loooove these boots. I got a half size up (7), I usually wear a 6 1/2) because I wanted to be able to wear thick socks or leg warmers with them. I also have pretty muscular legs and was worried about my calf not being able to fit but there is the perfect amount of room. The greyish brown color goes with so much so I can wear it with pretty much everything. I have a high arch in my foot and these boots do well with my feet. Worth every penny!",
+      "product" : "1",
+      "rating" : 5,
+      "title" : "In love"
+    },
+    "-KVgS1oBsqomxY-3SPix" : {
+      "author" : "200 Dollars Wasted",
+      "content" : "I was so excited for these boots - I thought that I had gotten a great, name-brand pair at a steal of a price... unfortunately, you get what you pay for. I wouldn't be surprised if these aren't actually Rampage boots; they look and feel flimsy and cheap.",
+      "product" : "1",
+      "rating" : 1,
+      "title" : "Disappoint"
+    },
+    "-KVgS8k3n-t9leUc7wWw" : {
+      "author" : "Sensitive Nose",
+      "content" : "I couldn't even get these on my feet, and had to send them back. Even if they had fit, I don't know if I would have kept them. The smell was terrible, very strong chemical stink. Ick. The style was cute, though. Oh, well.",
+      "product" : "1",
+      "rating" : 2,
+      "title" : "Stinky Boots"
+    },
+    "-KVgSLnRnpTRsl-Zowy8" : {
+      "author" : "Basketball Man",
+      "content" : "For an outdoor basketball, grip, durability and balance, are probably the most important considerations. Spalding's `Street' basketball ranks pretty high in those key departments. You get a nice firm grip, the durability of the pebbled finish seems to be pretty good, and you get a nice bounce on various types of hardcourts. The grip may not be as good as Spalding's NBA `Legacy' ball, but it is very close. Like many outdoor type balls, it may feel a little heavy on an indoor court. It's reasonably priced, so if you need an outdoor ball, you really can't go wrong with this one.",
+      "product" : "0",
+      "rating" : 5,
+      "title" : "Good outdoor ball"
+    },
+    "-KVgSSYI-er4Ylr7482R" : {
+      "author" : "High Basketball Standards",
+      "content" : "Its not the best basketball out there. But its decent and my son is satisfied with it. Have had it for several months ow, kid plays it at least 3 times every week (outside cement court) ... and the ball is doing just fine. For the relative cheap price, a great buy.",
+      "product" : "0",
+      "rating" : 3,
+      "title" : "Its not the best basketball out there"
+    },
+    "-KVgSerY-N95giWDK9hS" : {
+      "author" : "SkyrimFTW",
+      "content" : "Skyrim was excellent before, i mean truly excellent. But this is on another level and combined with Mods it makes for a great time. If you never played the first one and are interested in this one I can 100% give you the nod. Skyrim is one of the greatest games I have ever played and I have been gaming since Atari so I have some sample size. The mod restrictions on PS4 are really bogus and blame Sony for that one but as of right now there are still 38 mods on Bethesda.net for PS4 which is enough for me and it grows every day.",
+      "product" : "2",
+      "rating" : 5,
+      "title" : "Awesome game! Playing it for a 2nd time and am stoked!"
+    },
+    "-KVgSsooJVAqJ95YVgQb" : {
+      "author" : "MessiAndRonaldo",
+      "content" : "Let's start with the negatives, especially the most discussed. The penalty kick change is terrible, seems like they just had to screw with it just to say something was updated there. I don't even know if the rating matters. Corners added a target, \"for your convenience\" I guess but doesn't seem to help. Goalie stresses me out on this one, HANG ON TO THE BALL or bat it clear. Especially the soft shots, should be able to handle that. The game is slower but is not at PES level and I wont call it a negative like you see from other reviews. EA needs to add an arcade mode for those peeps I guess.\nPositives, well number one NEW graphics engine, finally. Game requires you to make the right passes and key passes to break the D down, kinda like if you were really playing (another gripe from those, the game is to slow folks). Crossing is back, yes you can score from crossing again like 2015. 16 forced me to learn playing narrow. Game strategy matters more so dont stay in attack mode you will be punished if you lose the ball. The franchise mode has more depth, its not just about winning, also have a longer term strategy to keep up with makes picking a team interesting.\nOverall, a good upgrade from 16 especially those who enjoy more tactical style (false 9 option added as example for those formations where it make sense). Note no review for the story mode since I haven't played it and probably won't but EA at least acknowledged those that wanted it and put it in. If you want the faster pace and just let one guy run end to end with the ball 17 will frustrate you a bit so may not be for you. Other then that, 17 is worth the purchase.",
+      "product" : "2",
+      "rating" : 4,
+      "title" : "Fair Review"
+    },
+    "-KVgT59ZmFwIMzXBvHBv" : {
+      "author" : "jackson meyer",
+      "content" : "It was a funny book but the ending felt rushed and didn't make too much sense if there's a book two ill definitely read it but this one was a tad confusing\n",
+      "product" : "3",
+      "rating" : 3,
+      "title" : "Odd but okay"
+    },
+    "-KVgTF62OgB4FL_R4_hX" : {
+      "author" : "IDontUnderstandWhatAwesomeMeans",
+      "content" : "Awesome read!\n",
+      "product" : "3",
+      "rating" : 4,
+      "title" : "Four Stars"
+    },
+    "-KVgTKH2Hi2w1WGqQs1u" : {
+      "author" : "Garrett Boggs",
+      "content" : "This is a great, short book for young adults and older. I personally enjoy reading (certain) YA novels every now and then for kicks and giggles, and this is one that I would recommend to everyone and their mothers. Most popular novels right now (like those ones about games or mazes) take place in dystopian, dark universes, but Warscapia is in a much more lighthearted world. Has some great humor and the story moves along at a good pace. I recommend for anyone who like video games, ducks, and everything chill.",
+      "product" : "3",
+      "rating" : 5,
+      "title" : "Read It Now."
+    }
+  }
 }

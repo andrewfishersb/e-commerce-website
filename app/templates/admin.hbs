@@ -16,11 +16,11 @@
         {{#each model.product as |product|}}
           <!-- {{admin-tile product=product}} -->
           <tr>
-            <td><img class="admin-image" src={{product.image}} alt="Not available" /></td>
+            <td>{{#link-to 'products' product.id}}<img class="admin-image" src={{product.image}} alt="Not available" />{{/link-to}}</td>
             <td>{{product.name}}</td>
             <td>{{product.price}}</td>
             <td>{{product.description}}</td>
-            <td>
+            <td id="product-edit">
               {{edit-item product=product editItem='editItem'}}
             </td>
             <td>

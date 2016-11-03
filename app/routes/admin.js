@@ -27,9 +27,8 @@ export default Ember.Route.extend({
       this.transitionTo('admin');
     },
     editItem(item, params){
-      console.log("got to this point")
       Object.keys(params).forEach(function(key){
-        if(params[key]!==undefined){
+        if(params[key]!==undefined && params[key]!==null && params[key]!==''){
           item.set(key,params[key]);
         }
       });
