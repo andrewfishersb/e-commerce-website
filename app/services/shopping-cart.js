@@ -25,7 +25,6 @@ export default Ember.Service.extend({
       }
     }
   },
-  //maybe a checker for if cart is empty
   cost(items){
     var tempTotal = 0;
     if(items.length>0){
